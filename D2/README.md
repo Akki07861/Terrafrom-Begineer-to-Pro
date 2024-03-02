@@ -21,7 +21,7 @@ either it is created by using aws console or terraform.
 
 steps for importing :
 on terminal hit the following terraform commands.
-## CMD
+## CMD  INSURE TO CHNAGE COMMAND ACCORDINGLY....
 
  terraform init
  
@@ -36,7 +36,7 @@ after that terraform will be import all the configuration of the existing instan
 after that copy the code from filename.tf and paste it on the main.tf 
 now delete the imported file 
 
-##CMD
+## CMD 
 
  terraform import aws_instance.example " your instance_id" # do not make it in quotes
 
