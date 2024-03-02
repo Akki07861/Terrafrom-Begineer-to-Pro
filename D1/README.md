@@ -6,9 +6,14 @@ for running this you need to setup the terraform in your pc/laptop and add secur
 
 Script to run:
 
-terraform init  #used to initialize the terraform in directory
-terraform validate  # used to validate the hcl code
-terraform fmt     # to formate the code into the ec2.tf 
-terraform plan    # to make blueprint for architecture
-terraform apply   # to apply the changes in the AWS
-terraform destroy  # to destroy the applied changes in AWs
+terraform init                  #used to initialize the terraform in directory
+
+terraform validate                      # used to validate the hcl code
+
+terraform fmt                     # to formate the code into the ec2.tf 
+
+terraform plan                # to make blueprint for architecture
+
+terraform apply                # to apply the changes in the AWS
+
+terraform destroy                      # to destroy the applied changes in AWs
