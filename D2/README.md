@@ -31,11 +31,15 @@ on terminal hit the following terraform commands.
  
  terraform plan -generate-config-out=/path of your project directory/filename.tf
 
+##
 after that terraform will be import all the configuration of the existing instance into your specified file(filename.tf).
 after that copy the code from filename.tf and paste it on the main.tf 
 now delete the imported file 
 
+##CMD
+
  terraform import aws_instance.example " your instance_id" # do not make it in quotes
 
+##
 by this command the state file for instance is generated to your directory and now you are able to do 
 all things related to that instance with help of terraform. 
