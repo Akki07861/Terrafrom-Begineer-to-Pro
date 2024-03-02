@@ -21,7 +21,7 @@ either it is created by using aws console or terraform.
 
 steps for importing :
 on terminal hit the following terraform commands.
-## CMD  INSURE TO CHNAGE COMMAND ACCORDINGLY....
+## CMD  (INSURE TO CHNAGE COMMAND ACCORDINGLY....)
 
  terraform init
  
