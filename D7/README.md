@@ -47,11 +47,12 @@ Before you begin, ensure you have the following installed:
 3. Review and customize the `terraform.tfvars` file with your specific configuration.
     If you are not able to understand the code from main.tf
     then simply create the
-    1. dev.tfvars
+ ``   1. dev.tfvars
     2. stage.tfvars
     3. prod.tfvars
-    inactive current directory
-    change the
+   ``
+   in active current directory
+   create and change the files
 ## main.tf  
   ```
     provider "aws" {
