@@ -45,7 +45,36 @@ Before you begin, ensure you have the following installed:
     ```
 
 3. Review and customize the `terraform.tfvars` file with your specific configuration.
+    If you are not able to understand the code from main.tf
+    then simply create the
+    1. dev.tfvars
+    2. stage.tfvars
+    3. prod.tfvars
+    inactive current directory
+    change the
+## main.tf  
+  ```
+    provider "aws" {
+  region = "us-east-1"
+}
 
+variable "ami" {
+  description = "value"
+}
+
+variable "instance_type" {
+  description = "value"
+  
+}
+
+module "ec2_instance" {
+  source = "./modules/ec2_instance"
+  ami = var.ami
+  instance_type = var.instace_type
+}
+
+
+  ```
 4. Deploy the infrastructure:
 
     ```bash
