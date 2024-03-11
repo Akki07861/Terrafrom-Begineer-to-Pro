@@ -29,13 +29,18 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository:
 
     ```bash
-    git clone [repository_url]
-    cd [repository_directory]
+    git clone [https://github.com/Akki07861/Terrafrom-Begineer-to-Pro]
+    cd [D7]
     ```
 
 2. Set up your Terraform workspace:
 
     ```bash
+    terraform init
+    terraform workspace new dev
+    terraform workspace new prod
+    terraform workspace new stage
+    terraform workspace select dev
     terraform init
     ```
 
