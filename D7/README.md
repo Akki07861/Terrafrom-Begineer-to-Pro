@@ -72,9 +72,23 @@ module "ec2_instance" {
   ami = var.ami
   instance_type = var.instace_type
 }
-
-
   ```
+## dev.tfvars
+```
+ami = "ami-0440d3b780d96b29d"
+instance_type = "t2.micro"
+```
+## stage.tfvars
+```
+ami = "ami-0440d3b780d96b29d"
+instance_type = "t2.medium"
+```
+## prod.tfvars
+```
+ami = "ami-0440d3b780d96b29d"
+instance_type = "t2.xlarge"
+```
+
 4. Deploy the infrastructure:
 
     ```bash
