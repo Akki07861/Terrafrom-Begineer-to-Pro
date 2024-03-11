@@ -51,8 +51,8 @@ Before you begin, ensure you have the following installed:
     2. stage.tfvars
     3. prod.tfvars
    ``
-   in active current directory
-   create and change the files
+   in active current directory.
+   change the files
 ## main.tf  
   ```
     provider "aws" {
